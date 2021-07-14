@@ -8,7 +8,7 @@ import java.util.ArrayList;
 class Curso_OnDemand extends Curso {
 	//Attributes
 		ArrayList<Curso_OnDemand> registro=new ArrayList<>();
-		RandomAccessFile cuprivado;
+		RandomAccessFile cuondemand;
 		
 	 //Constructor (1)
 	 Curso_OnDemand(String nombre, String descripcion, int horas, String dirigidoa, double costo) {
@@ -33,7 +33,7 @@ class Curso_OnDemand extends Curso {
 		    	 * int = 4 bytes
 		    	 * float = 4 bytes
 		    	 * double = 8 bytes
-		    	 * String = 2 x El tamaño de la cadena
+		    	 * String = 2 x El tamaÃ±o de la cadena
 		    	 * Siguiendo el orden de las variables, entonces:
 		    	 * (10*2)+(10*2)+(4)+(10*2)+(8)=72*/
 		    	cuondemand.seek(72*(p-1));
