@@ -111,9 +111,7 @@ public class PlantillaController {
 		}//End conditional (1)
 	}
 	
-	@FXML private void exit(ActionEvent event) {
-		
-	}
+	
 	
 
 }//End class 'Controlador de plantilla'
