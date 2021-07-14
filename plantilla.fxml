@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="483.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ficheros.PlantillaController">
+   <children>
+      <Label layoutX="44.0" layoutY="46.0" text="CURSO PRIVADO">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="73.0" text="(1)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="204.0" text="(2)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="309.0" text="(3)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="86.0" prefHeight="18.0" prefWidth="46.0" text="AÑADIR" />
+      <Label layoutX="216.0" layoutY="184.0" prefHeight="18.0" prefWidth="70.0" text="CONSULTAR" />
+      <Label layoutX="222.0" layoutY="251.0" prefHeight="18.0" prefWidth="59.0" text="ELIMINAR" />
+      <Label layoutX="220.0" layoutY="347.0" prefHeight="18.0" prefWidth="70.0" text="ACTUALIZAR" />
+      <Button id="add" fx:id="btadd" layoutX="231.0" layoutY="110.0" mnemonicParsing="false" onAction="#add" text="ADD" />
+      <Button id="look" fx:id="btlook" layoutX="225.0" layoutY="214.0" mnemonicParsing="false" onAction="#look" text="LOOK" />
+      <Button id="delete" fx:id="btdelete" layoutX="221.0" layoutY="274.0" mnemonicParsing="false" onAction="#delete" text="DELETE" />
+      <Button id="update" fx:id="btupdate" layoutX="225.0" layoutY="375.0" mnemonicParsing="false" onAction="#update" text="UPDATE" />
+      <Button id="send" fx:id="btselect" layoutX="63.0" layoutY="425.0" mnemonicParsing="false" onAction="#send" prefHeight="38.0" prefWidth="98.0" text="SEND OPTION" />
+      <Label layoutX="50.0" layoutY="170.0" text="CURSO ONLINE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="281.0" text="CURSO ONDEMAND">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="524.0" layoutY="104.0" prefHeight="38.0" prefWidth="96.0" text="  ID del registro:" />
+      <TextArea id="mostrarid" fx:id="mostrarid" layoutX="542.0" layoutY="136.0" prefHeight="39.0" prefWidth="59.0" promptText="ID" />
+      <TextField id="nombre" fx:id="nombre" layoutX="297.0" layoutY="69.0" prefHeight="26.0" prefWidth="96.0" promptText="Nombre del curso" />
+      <TextField id="descripccion" fx:id="descripccion" layoutX="411.0" layoutY="69.0" prefHeight="26.0" prefWidth="96.0" promptText="Descripcción" />
+      <TextField id="horas" fx:id="horas" layoutX="514.0" layoutY="69.0" prefHeight="26.0" prefWidth="96.0" promptText="Horas" />
+      <TextField id="dirigidoa" fx:id="dirigidoa" layoutX="318.0" layoutY="122.0" prefHeight="26.0" prefWidth="96.0" promptText="Dirigido a..." />
+      <TextField id="costo" fx:id="costo" layoutX="424.0" layoutY="121.0" prefHeight="26.0" prefWidth="96.0" promptText="Costo" />
+      <TextField id="registro" fx:id="registro" layoutX="297.0" layoutY="201.0" prefHeight="26.0" prefWidth="70.0" promptText="ID" />
+      <TextField id="registro2" fx:id="registro2" layoutX="297.0" layoutY="273.0" prefHeight="26.0" prefWidth="70.0" promptText="ID" />
+      <TextField id="nombre" fx:id="nombre1" layoutX="303.0" layoutY="335.0" prefHeight="26.0" prefWidth="96.0" promptText="Nombre del curso" />
+      <TextField id="descripccion" fx:id="descripccion1" layoutX="417.0" layoutY="335.0" prefHeight="26.0" prefWidth="96.0" promptText="Descripcción" />
+      <TextField id="horas" fx:id="horas1" layoutX="520.0" layoutY="335.0" prefHeight="26.0" prefWidth="96.0" promptText="Horas" />
+      <TextField id="dirigidoa" fx:id="dirigidoa1" layoutX="303.0" layoutY="387.0" prefHeight="26.0" prefWidth="96.0" promptText="Dirigido a..." />
+      <TextField id="costo" fx:id="costo1" layoutX="417.0" layoutY="387.0" prefHeight="26.0" prefWidth="96.0" promptText="Costo" />
+      <TextField id="modalidad" fx:id="option" layoutX="65.0" layoutY="379.0" prefHeight="26.0" prefWidth="96.0" promptText="Put 1, 2 or 3" />
+      <TextField id="campo" fx:id="campo" layoutX="384.0" layoutY="194.0" prefHeight="50.0" prefWidth="234.0" promptText="Nombre-Descripcción-Horas-Dirigido a...-costo" />
+      <TextField id="registro3" fx:id="registro3" layoutX="526.0" layoutY="387.0" prefHeight="26.0" prefWidth="70.0" promptText="ID" />
+   </children>
+</AnchorPane>
